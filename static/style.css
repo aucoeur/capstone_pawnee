@@ -14,6 +14,9 @@
     bottom: 1px;
 }
 
+.placeholder {
+    height: 150px;
+}
 .sticky-top {
     padding-bottom: 0px;
 }
@@ -35,6 +38,10 @@
 
 a, a:hover {
     color: white;
+}
+
+a.quick-link {
+    color: black;
 }
 
 .nav-tabs > a:hover {
