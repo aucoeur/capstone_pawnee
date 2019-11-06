@@ -1,21 +1,36 @@
 .container-fluid {
     padding-left: 0px !important;
 }
+
 .header-bg {
     background: rgba(12, 70, 96, 0.85);
     position: absolute;
     z-index: 10;
+    padding: 0px;
   }
+
+.overlay {
+    position: absolute;
+    bottom: 1px;
+}
+
+.sticky-top {
+    padding-bottom: 0px;
+}
 
 .navbar-brand {
     font-family: Montserrat;
     font-size: 3em;
 }
 
+.nav-tabs {
+    border: 0px solid transparent !important;
+    border-bottom: 0px solid transparent !important;
+}
 .nav-tabs .nav-link {
     border: 0px solid transparent;
-    border-bottom-color: white;
-
+    border-bottom: 0px solid transparent !important;
+    background: rgba(12, 70, 96, 0.95);
 }
 
 a, a:hover {
@@ -39,4 +54,20 @@ a, a:hover {
 
 .carousel-caption {
     background: rgba(0, 0, 0, 0.6);
+}
+
+.far, .fa, .fas {
+    color:  rgb(5, 50, 100);
+}
+
+.far:hover, .fa:hover, .fas:hover {
+    color:  rgb(200, 85, 0);
+}
+
+.card {
+    border: none;
+}
+
+.card-container {
+    background: rgba(12, 70, 96, .9)
 }
