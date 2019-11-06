@@ -1,0 +1,42 @@
+.container-fluid {
+    padding-left: 0px !important;
+}
+.header-bg {
+    background: rgba(12, 70, 96, 0.85);
+    position: absolute;
+    z-index: 10;
+  }
+
+.navbar-brand {
+    font-family: Montserrat;
+    font-size: 3em;
+}
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-bottom-color: white;
+
+}
+
+a, a:hover {
+    color: white;
+}
+
+.nav-tabs > a:hover {
+    background: rgb(15, 176, 250);
+    color: white;
+}
+
+.carousel-inner {
+    height: 650px;
+}
+
+.carousel-inner > .carousel-item > img {
+    min-width: 100%;
+    position: relative;
+    height: 650px;
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+}
