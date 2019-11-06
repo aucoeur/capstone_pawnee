@@ -91,3 +91,13 @@ footer {
     background: rgba(12, 70, 96, 0.9);
     color: white;
 }
+
+.bios {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+
+.bios > img {
+    position: absolute;
+}
